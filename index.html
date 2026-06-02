@@ -876,6 +876,21 @@
       background: white;
       box-shadow: 0 8px 20px rgba(16, 24, 40, 0.06);
       color: var(--muted);
+      font-weight: 700;
+    }
+
+    .contact-link strong {
+      color: var(--navy-2);
+      font-weight: 900;
+    }
+
+    .contact-static {
+      cursor: default;
+    }
+
+    .contact-value {
+      color: var(--muted);
+      font-weight: 700;
     }
 
     .form { display: grid; gap: 14px; margin-top: 22px; }
@@ -1358,10 +1373,10 @@
           </div>
 
           <div class="contact-links">
-            <a class="contact-link" href="tel:+70000000000">☎ +7 XXX XXX XX XX</a>
-            <a class="contact-link" href="mailto:your@email.com">✉ your@email.com</a>
-            <a class="contact-link" href="https://t.me/your_username" target="_blank">✈ Telegram</a>
-            <a class="contact-link" href="https://max.ru/your_username" target="_blank">💬 MAX</a>
+            <div class="contact-link contact-static"><strong>☎ Телефон:</strong> <span class="contact-value">+7 XXX XXX XX XX</span></div>
+            <div class="contact-link contact-static"><strong>✉ Почта:</strong> <span class="contact-value">your@email.com</span></div>
+            <a class="contact-link" href="https://t.me/Tatyana_Petrovskaia" target="_blank" rel="noopener noreferrer"><strong>✈ Telegram:</strong> Связаться в Telegram</a>
+            <a class="contact-link" href="https://max.ru/u/f9LHodD0cOIf9im2egefQEzYzf9ad_ZnYctjoHi80LlegR2xQZakTzluoSg/" target="_blank" rel="noopener noreferrer"><strong>💬 MAX:</strong> Связаться в MAX</a>
             <button class="btn btn-gold" data-modal-open>Связаться со мной</button>
           </div>
         </div>
@@ -1375,10 +1390,10 @@
       <h2 id="modalTitle">Связаться со мной</h2>
       <p>Заполните форму внизу страницы или используйте удобный способ связи.</p>
       <div style="margin-top:20px;display:grid;gap:12px">
-        <a class="contact-link" href="tel:+70000000000">☎ +7 XXX XXX XX XX</a>
-        <a class="contact-link" href="mailto:your@email.com">✉ your@email.com</a>
-        <a class="contact-link" href="https://t.me/your_username" target="_blank">✈ Telegram</a>
-        <a class="contact-link" href="https://max.ru/your_username" target="_blank">💬 MAX</a>
+        <div class="contact-link contact-static"><strong>☎ Телефон:</strong> <span class="contact-value">+7 XXX XXX XX XX</span></div>
+        <div class="contact-link contact-static"><strong>✉ Почта:</strong> <span class="contact-value">your@email.com</span></div>
+        <a class="contact-link" href="https://t.me/Tatyana_Petrovskaia" target="_blank" rel="noopener noreferrer"><strong>✈ Telegram:</strong> Связаться в Telegram</a>
+        <a class="contact-link" href="https://max.ru/u/f9LHodD0cOIf9im2egefQEzYzf9ad_ZnYctjoHi80LlegR2xQZakTzluoSg/" target="_blank" rel="noopener noreferrer"><strong>💬 MAX:</strong> Связаться в MAX</a>
       </div>
     </div>
   </div>
